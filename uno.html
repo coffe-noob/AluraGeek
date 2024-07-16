@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek - Tienda de Videojuegos y Figuras de Acción</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>AluraGeek</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#cuenta">Cuenta</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="productos" class="products">
+        <div class="container">
+            <h2>Productos Destacados</h2>
+            <div class="row">
+                <div class="product">
+                    <img src="xbox_one.jpg" alt="Xbox One">
+                    <h3>Xbox One</h3>
+                    <p>Consola de videojuegos Xbox One</p>
+                    <p>Precio: $299.99</p>
+                </div>
+                <div class="product">
+                    <img src="playstation.jpg" alt="PlayStation">
+                    <h3>PlayStation</h3>
+                    <p>Consola de videojuegos PlayStation</p>
+                    <p>Precio: $329.99</p>
+                </div>
+                <div class="product">
+                    <img src="nintendo_switch.jpg" alt="Nintendo Switch">
+                    <h3>Nintendo Switch</h3>
+                    <p>Consola de videojuegos Nintendo Switch</p>
+                    <p>Precio: $299.99</p>
+                </div>
+                <div class="product">
+                    <img src="nes_classic.jpg" alt="NES Classic Edition">
+                    <h3>Nintendo Entertainment System: NES Classic Edition</h3>
+                    <p>Consola clásica de Nintendo</p>
+                    <p>Precio: $79.99</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="product">
+                    <img src="snes_classic.jpg" alt="SNES Classic Edition">
+                    <h3>Super Nintendo Entertainment System Classic Edition</h3>
+                    <p>Consola clásica de Super Nintendo</p>
+                    <p>Precio: $79.99</p>
+                </div>
+                <div class="product">
+                    <img src="control_ps4.jpg" alt="Control PlayStation 4">
+                    <h3>Control PlayStation 4</h3>
+                    <p>Control adicional para PlayStation 4</p>
+                    <p>Precio: $59.99</p>
+                </div>
+                <div class="product">
+                    <img src="control_xbox.jpg" alt="Control Xbox">
+                    <h3>Control Xbox</h3>
+                    <p>Control adicional para Xbox</p>
+                    <p>Precio: $59.99</p>
+                </div>
+                <div class="product">
+                    <img src="figura_mario.jpg" alt="Figura de Mario">
+                    <h3>Figura de Mario</h3>
+                    <p>Figura coleccionable de Mario Bros</p>
+                    <p>Precio: $24.99</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="product">
+                    <img src="figura_zelda.jpg" alt="Figura de Link">
+                    <h3>Figura de Link</h3>
+                    <p>Figura coleccionable de Link de Zelda</p>
+                    <p>Precio: $29.99</p>
+                </div>
+                <div class="product">
+                    <img src="figura_kratos.jpg" alt="Figura de Kratos">
+                    <h3>Figura de Kratos</h3>
+                    <p>Figura coleccionable de Kratos de God of War</p>
+                    <p>Precio: $34.99</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta? ¡Contáctanos!</p>
+            <form action="#" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="cuenta" class="account">
+        <div class="container">
+            <h2>Crear una cuenta</h2>
+            <form action="#" method="POST">
+                <label for="username">Nombre de usuario:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Crear cuenta</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AluraGeek. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
